@@ -1,0 +1,227 @@
+/* Default Page Style */
+body {
+    margin: 0;
+    background-color: bisque;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+
+/* Sign In Style */
+
+.sign-in-header-container {
+    background-color: rgb(249, 230, 206);
+}
+
+.middle-notification {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.sign-in-header-container .bottom {
+    display: flex;
+}
+
+.left-space {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.right-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 250px;
+}
+
+/* Site Header Style */
+
+.site-header-container {
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.site-header-container .left {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.site-header-container .categories-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.site-header-container .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+/* Sales style */
+
+.sales-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+/* Photo Spotlight Style */
+
+.photo-spotlight-container {
+    display: flex;    
+    height: max-content;
+    background-color: #363535;
+}
+
+.photo-spotlight-container .left {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 250px;
+}
+
+.photo-spotlight-container .right {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 250px;
+}
+
+/* Features Styles Style */
+
+.styles-container {
+    height: max-content;
+}
+
+.styles-header {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+}
+
+.style-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.style-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.styles {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 50px;
+}
+
+
+/* Footer Info Styler */
+
+.footer-info-container {
+    display: flex;
+    margin-top: 15px;
+    background-color: #595757;
+}
+
+.socials-container {
+    width: 600px;
+    height: 150px;
+}
+
+.small-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 175px;
+}
+
+.socials-container .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.socials-container .bottom div {
+    padding: 5px;
+}
+
+.menu-map-container {
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.menu-map-container div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+}
+
+.menu-header {
+    font-size: 18px;
+}
+
+/* Footer Style */
+
+.footer-container .top {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.footer-container .bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.footer-container .bottom div {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bottom .left {
+    border-right-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.bottom .middle-left {
+    border-right-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.bottom .middle-right {
+    border-right-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
