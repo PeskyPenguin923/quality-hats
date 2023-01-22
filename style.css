@@ -15,6 +15,7 @@ body {
 
 .sign-in-header-container {
     background-color: rgb(249, 230, 206);
+    margin: 5px;
 }
 
 .middle-notification {
@@ -38,6 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+    padding-bottom: 10px;
     width: 250px;
 }
 
@@ -47,6 +49,8 @@ body {
     display: flex;
     justify-content: space-around;
     height: max-content;
+    margin: 5px;
+
 }
 
 .site-header-container .left {
@@ -66,6 +70,21 @@ body {
     justify-content: center;
     align-items: center;
     width: 700px;
+}
+
+.categories-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category a {
+    color: black;
 }
 
 .site-header-container .right {
@@ -96,7 +115,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    height: 250px;
+    height: 500px;
 }
 
 .photo-spotlight-container .right {
@@ -104,7 +123,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    height: 250px;
+    height: 500px;
 }
 
 /* Features Styles Style */
@@ -136,8 +155,14 @@ body {
 .styles {
     display: flex;
     align-items: center;
-    padding: 5px;
-    height: 50px;
+    margin: 5px;
+}
+
+.styles button {
+    border-radius: 4px;
+    height: 75px;
+    width: 150px;
+    background-color: rgb(163, 145, 121);
 }
 
 
@@ -160,8 +185,15 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
     height: 50px;
     width: 175px;
+}
+
+.small-logo img {
+    height: 50px;
+    width: auto;
 }
 
 .socials-container .bottom {
