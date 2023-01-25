@@ -309,3 +309,26 @@ body {
     font-size: 18px;
 
 }
+
+/* Product Pages Style */
+
+.single-product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-preview img {
+    height: 100px;
+    width: auto;
+}
+
+.details-container {
+    padding-left: 25px;
+}
+
+.description-header-details {
+    font-size: 20px;
+    font-weight: bold;
+}
+
