@@ -257,3 +257,38 @@ body {
     border-color: black;
     border-width: 1px;
 }
+
+/* Marketplace Style */
+
+.marketplace-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marketplace-header {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-panel .image-container {
+    height: 500px;
+    width: 500px;
+}
+
+.image-container img {
+    height: 500px;
+    width: 700px;
+}
+
+.description-header {
+    margin-top: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-description {
+    font-size: 18px;
+
+}
