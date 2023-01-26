@@ -172,7 +172,17 @@ body {
 .styles {
     display: flex;
     align-items: center;
+    background-color: #747474;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 300px;
+    padding: 5px;
     margin: 5px;
+}
+
+.featured-header {
+    padding-left: 10px;
 }
 
 .styles button {
@@ -183,7 +193,7 @@ body {
 }
 
 
-/* Footer Info Styler */
+/* Footer Info Styles */
 
 .footer-info-container {
     display: flex;
