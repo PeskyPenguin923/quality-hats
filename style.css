@@ -335,6 +335,8 @@ body {
 
 .details-container {
     padding-left: 25px;
+    width: 700px;
+    height: 125px;
 }
 
 .description-header-details {
