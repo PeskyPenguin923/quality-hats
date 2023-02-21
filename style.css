@@ -347,6 +347,22 @@ body {
 
 /* Directory Style */
 
+.page-header {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    background-color: rgb(248, 198, 137);
+}
+
+.master-container {
+    margin-top: 10px;
+}
+
 .master-container .top {
     display: flex;
     justify-content: space-around;
@@ -365,6 +381,11 @@ body {
 .directory-header {
     font-weight: bold;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.directory-body div {
     display: flex;
     justify-content: center;
 }
