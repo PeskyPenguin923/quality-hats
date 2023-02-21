@@ -344,3 +344,27 @@ body {
     font-weight: bold;
 }
 
+
+/* Directory Style */
+
+.master-container .top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.master-container .bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.directory-list {
+    width: 225px;
+    margin-top: 25px;
+}
+
+.directory-header {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
