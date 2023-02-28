@@ -62,7 +62,12 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 150px;
+}
+
+.logo img {
+    height: 200px;
+    width: auto;
 }
 
 .site-header-container .categories-container {
@@ -198,12 +203,14 @@ body {
 .footer-info-container {
     display: flex;
     margin-top: 15px;
-    background-color: #595757;
+    background-color: #7c7c7c;
+    height: max-content;
 }
 
 .socials-container {
     width: 600px;
-    height: 150px;
+    height: max-content;
+    margin-bottom: 15px;
 }
 
 .small-logo {
@@ -214,12 +221,12 @@ body {
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 10px;
-    height: 50px;
+    height: 150px;
     width: 175px;
 }
 
 .small-logo img {
-    height: 50px;
+    height: 200px;
     width: auto;
 }
 
