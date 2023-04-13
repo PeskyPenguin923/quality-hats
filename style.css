@@ -296,7 +296,7 @@ body {
 
 .marketplace-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .marketplace-header {
@@ -308,16 +308,21 @@ body {
 
 .left-panel .image-container {
     height: 500px;
-    width: 500px;
+    width: auto;
 }
 
 .image-container img {
-    height: 500px;
-    width: 700px;
+    height: auto;
+    width: 600px;
+}
+
+.right-panel {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
 }
 
 .description-header {
-    margin-top: 300px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -351,6 +356,11 @@ body {
     font-weight: bold;
 }
 
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
 .product-container-header {
     display: flex;
     justify-content: center;
@@ -362,7 +372,7 @@ body {
 
 .products-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .left-container {
