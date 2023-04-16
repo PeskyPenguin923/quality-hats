@@ -204,6 +204,11 @@ body {
     background-color: rgb(163, 145, 121);
 }
 
+.directory-header a {
+    margin: 10px;
+    color: black;
+}
+
 
 /* Footer Info Styles */
 
