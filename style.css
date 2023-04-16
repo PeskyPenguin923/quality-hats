@@ -105,6 +105,13 @@ body {
     display: flex;
     justify-content: center;
     background-color: darkgray;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sales-container a {
+    color: black;
 }
 
 /* Photo Spotlight Style */
@@ -181,7 +188,7 @@ body {
     border-style: solid;
     border-radius: 10px;
     border-color: black;
-    width: 300px;
+    width: 250px;
     padding: 5px;
     margin: 5px;
 }
