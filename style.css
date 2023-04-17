@@ -435,3 +435,33 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.directions-header {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.directions-content div {
+    display: flex;
+    justify-content: center;
+}
+
+.table-header {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-table {
+    display: flex;
+}
