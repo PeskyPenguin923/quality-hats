@@ -302,7 +302,8 @@ body {
 
 .hat-category {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
+    margin-top: 20px;
 }
 
 .single-product-container {
@@ -311,6 +312,7 @@ body {
     align-items: center;
     max-width: 300px;
     max-height: 100px;
+    padding: 10px;
 }
 
 .image-preview img {
