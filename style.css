@@ -161,9 +161,11 @@ body {
 
 /* Footer Info Styles */
 
+.footer-main {}
+
 .footer-info-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 350px));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 250px));
     justify-content: center;
     align-items: center;
     margin-top: 15px;
